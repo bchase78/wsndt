@@ -1,5 +1,8 @@
 wsNDT - A websocket client for NDT
 ============================
+
+This is an experimental client for the Network Diagnostic Tool(NDT) https://code.google.com/p/ndt/
+
 This HTML5 client connects to a websocket proxy on the NDT Server and performs
 the client to server and server to client throughput tests. The meta test is
 also performed.
