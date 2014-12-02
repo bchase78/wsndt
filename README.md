@@ -12,7 +12,9 @@ there are no real end to end measurements possible. Because of this some of
 the results are skewed, especially the round trip time is false. This in turn
 results in a misinterpretation of many of the other parameters. This problem 
 could be overcome, if the NDT server could itself had support for websockets,
-which would eliminate the need for a proxy.
+which would eliminate the need for a proxy. Websockify ( https://github.com/kanaka/websockify )
+is used for the proxy.
+
 
 To use the client only the installation of a websocket proxy on the NDT server
 is required. The client should then be served from the local webserver.
