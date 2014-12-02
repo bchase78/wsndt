@@ -11,13 +11,13 @@ This client is a proof of concept. Due to the nature of the websocket proxy,
 there are no real end to end measurements possible. Because of this some of 
 the results are skewed, especially the round trip time is false. This in turn
 results in a misinterpretation of many of the other parameters. This problem 
-could be overcome, if the NDT server could itself had support for websockets,
-which would eliminate the need for a proxy. Websockify ( https://github.com/kanaka/websockify )
+could be overcome, if the NDT server had native support for websockets. This
+would eliminate the need for a proxy. Websockify ( https://github.com/kanaka/websockify )
 is used for the proxy.
 
 
-To use the client only the installation of a websocket proxy on the NDT server
-is required. The client should then be served from the local webserver.
+To use the client, only the installation of a websocket proxy on the NDT server
+is required. The client must then be served from the local ndt server.
 
 There is a demo available at: http://ndt.fh-luebeck.de/wsndt
 
