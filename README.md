@@ -1,3 +1,8 @@
+This Projekt is inactive.
+
+NDT Now has it's own Websocket Client. Please visit the NDT Repository:
+https://github.com/m-lab/ndt
+
 wsNDT - A websocket client for NDT
 ============================
 
